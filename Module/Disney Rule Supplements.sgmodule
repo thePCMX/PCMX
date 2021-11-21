@@ -1,3 +1,4 @@
 #!name=Disney Rule Supplements
 [Rule]
 DOMAIN-SUFFIX,hotstar.com,Disney
+DOMAIN-SUFFIX,hotstarext.com,Disney
