@@ -63,7 +63,7 @@ function getUserInfo(url) {
         resolve(resp.headers[header]);
         return;
       }
-      reject("链接响应头不带有流量信息");
+      reject("Response headers of the link do not contain traffic information.");
     })
   );
 }
