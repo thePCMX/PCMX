@@ -11,14 +11,14 @@ https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
   let used = info.download + info.upload;
   let total = info.total - (info.download + info.upload);
   let expire = args.expire || info.expire;
-  let content = [`Used：${bytesToSize(used)} / Available：${bytesToSize(total)}`];
+  let content = [`Used: ${bytesToSize(used)} / Available: ${bytesToSize(total)}`];
 
   if (resetDayLeft) {
-    content.push(`Traffic Reset：${resetDayLeft}Days Left`);
+    content.push(`Traffic Reset: ${resetDayLeft} Days Left`);
   }
   if (expire) {
     if (/^[\d.]+$/.test(expire)) expire *= 1000;
-    content.push(`Expiration：${formatTime(expire)}`);
+    content.push(`Expiration: ${formatTime(expire)}`);
   }
 
   let now = new Date();
@@ -116,5 +116,5 @@ function formatTime(time) {
   let year = dateObj.getFullYear();
   let month = dateObj.getMonth() + 1;
   let day = dateObj.getDate();
-  return year + "." + month + "." + day + ".";
+  return year + "." + month + "." + day;
 }
