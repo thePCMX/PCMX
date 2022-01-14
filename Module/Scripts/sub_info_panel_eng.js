@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
   let content = [`Used: ${bytesToSize(used)} / Left: ${bytesToSize(total)}`];
 
   if (resetDayLeft) {
-    content.push(`Traffic Reset: ${resetDayLeft} Days Left`);
+    content.push(`Traffic Reset: ${resetDayLeft} Days Later`);
   }
   if (expire) {
     if (/^[\d.]+$/.test(expire)) expire *= 1000;
