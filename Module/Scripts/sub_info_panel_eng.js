@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
   let used = info.download + info.upload;
   let total = info.total - (info.download + info.upload);
   let expire = args.expire || info.expire;
-  let content = [`Used: ${bytesToSize(used)} / ${bytesToSize(total)}`];
+  let content = [`Used: ${bytesToSize(used)} / Left: ${bytesToSize(total)}`];
 
   if (resetDayLeft) {
     content.push(`Traffic Reset: ${resetDayLeft} Days Left`);
