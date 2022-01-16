@@ -21,7 +21,7 @@ $httpClient.get('http://ip-api.com/json/?lang=en', function (error, response, da
       title:rootName,
       content:
 		`Region: ${jsonData.country} - ${jsonData.city}\n`+
-      `ISP : ${jsonData.isp}\n` +
+      `ISP: ${jsonData.isp}\n` +
 		`Data Center: ${jsonData.org}`,
       icon: params.icon,
 		  "icon-color":params.color
