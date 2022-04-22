@@ -2,7 +2,7 @@
 dns:
   enable: true # 是否启用dns false
   ipv6: true
-  listen: 0.0.0.0:53
+  listen: ':53'
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16 #
   fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
@@ -12,6 +12,8 @@ dns:
      - 223.5.5.5 # 阿里DNS
      - 223.6.6.6
      - 119.29.29.29 # 腾讯DNS
+     - "[2400:3200::1]"
+     - "[2400:3200:baba::1]"
      - https://dns.alidns.com/dns-query # 阿里 DoH DNS
      - tls://dns.alidns.com
   fallback:
