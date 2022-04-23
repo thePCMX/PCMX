@@ -77,7 +77,8 @@
          `Node Location : ${getFlagEmoji(info.countryCode)} | ${info.country} - ${info.city
          }`,
        icon: wifi.ssid ? 'wifi' : 'simcard',
-       'icon-color': wifi.ssid ? '#005CAF' : '#F9BF45',
+       'icon-color': wifi.ssid ? '#808080' : '#808080',
+      // 'icon-color': wifi.ssid ? '#005CAF' : '#F9BF45',
      });
    });
  }
