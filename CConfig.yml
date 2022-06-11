@@ -54,6 +54,10 @@ cfw-bypass-bak:
 # 系统代理跳过列表 起作用的
 cfw-bypass:
   # 直连列表
+  - "test-ipv6.com"
+  - "*.test-ipv6.com"
+  - "ipv6-test.com"
+  - "*.ipv6-test.com"
   # MyList
   - "*.13th.tech"
   - "*.423down.com"
