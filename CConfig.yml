@@ -1,7 +1,8 @@
 
+ipv6: true
 dns:
   enable: true # 是否启用dns false
-  ipv6: false
+  ipv6: true
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16 #
@@ -13,6 +14,8 @@ dns:
 #      - 223.6.6.6
 #      - 119.29.29.29 # 腾讯DNS
      - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+     - https://doh.pub/dns-query
+     - https://dns.pub/dns-query
   fallback:
      - https://dns.google/dns-query
      - https://doh.opendns.com/dns-query
