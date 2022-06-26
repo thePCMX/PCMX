@@ -63,7 +63,7 @@ dns:
     '+.clubhouseapi.com': 'server:https://doh.opendns.com/dns-query'
     '+.pubnubapi.com': 'server:https://doh.opendns.com/dns-query'
     '+.whoer.net': 'server:https://doh.opendns.com/dns-query'
-    whoer.net': 'server:https://doh.opendns.com/dns-query'
+    'whoer.net': 'server:https://doh.opendns.com/dns-query'
     # Spotify
     '+.pscdn.co': 'server:https://doh.opendns.com/dns-query'
     '+.scdn.co': 'server:https://doh.opendns.com/dns-query'
@@ -300,7 +300,7 @@ dns:
     '+.hbonow.com': 'server:https://doh.opendns.com/dns-query'
     '+.hbomax.com': 'server:https://doh.opendns.com/dns-query'
     '+.hbomaxcdn.com': 'server:https://doh.opendns.com/dns-query'
-    execute-api.ap-southeast-1.amazonaws.com': 'server:https://doh.opendns.com/dns-query'
+    'execute-api.ap-southeast-1.amazonaws.com': 'server:https://doh.opendns.com/dns-query'
     # Hulu
     '+.cws-hulu.conviva.com': 'server:https://doh.opendns.com/dns-query'
     '+.hulu.com': 'server:https://doh.opendns.com/dns-query'
@@ -344,7 +344,7 @@ dns:
     '+.underlords.com': 'server:https://doh.opendns.com/dns-query'
     '+.valvesoftware.com': 'server:https://doh.opendns.com/dns-query'
     # TestFlight
-    testflight.apple.com': 'server:https://doh.opendns.com/dns-query'
+    'testflight.apple.com': 'server:https://doh.opendns.com/dns-query'
     # Line
     '+.lin.ee': 'server:https://doh.opendns.com/dns-query'
     '+.line.me': 'server:https://doh.opendns.com/dns-query'
