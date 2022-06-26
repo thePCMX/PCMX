@@ -40,8 +40,6 @@ dns:
     'jsdelivr.com': 'server:https://doh.opendns.com/dns-query'
     '+.github.com': 'server:https://doh.opendns.com/dns-query'
     'github.com': 'server:https://doh.opendns.com/dns-query'
-    '+.github.com': 'server:https://doh.opendns.com/dns-query'
-    'github.com': 'server:https://doh.opendns.com/dns-query'
     '+.githubusercontent.com': 'server:https://doh.opendns.com/dns-query'
     '+.githubassets.com': 'server:https://doh.opendns.com/dns-query'
     '+.github.io': 'server:https://doh.opendns.com/dns-query'
