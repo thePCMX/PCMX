@@ -1,3 +1,6 @@
 # > IPv6 Test Websites
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,ipv6-test.com
+
+# > Local IPs
+IP-CIDR,192.168.0.0/16
