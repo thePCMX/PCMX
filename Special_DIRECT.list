@@ -7,3 +7,5 @@ IP-CIDR,192.168.0.0/16
 IP-CIDR,10.0.0.0/8
 
 DOMAIN-SUFFIX,plex.direct
+DOMAIN,v4.plex.tv
+DOMAIN,v6.plex.tv
