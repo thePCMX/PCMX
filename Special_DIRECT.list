@@ -5,3 +5,5 @@ DOMAIN-SUFFIX,ipv6-test.com
 # > Local IPs
 IP-CIDR,192.168.0.0/16
 IP-CIDR,10.0.0.0/8
+
+DOMAIN-SUFFIX,plex.direct
