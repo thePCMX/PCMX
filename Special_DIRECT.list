@@ -6,7 +6,7 @@ DOMAIN-SUFFIX,ipv6-test.com
 IP-CIDR,192.168.0.0/16,no-resolve
 IP-CIDR,10.0.0.0/8,no-resolve
 
-DOMAIN-SUFFIX,plex.direct
+
 
 DOMAIN-KEYWORD,tailscale
 DOMAIN-SUFFIX,ts.net
