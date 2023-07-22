@@ -1,4 +1,26 @@
 # > jsDelivr
+DOMAIN,mesu.apple.com
 DOMAIN-SUFFIX,jsdelivr.com
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,myunidays.com
+DOMAIN-SUFFIX,cloudleft.com
+DOMAIN-SUFFIX,biztoc.com
+DOMAIN,hanime.tv
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,onlyfans.com
+DOMAIN-SUFFIX,cdn.onlyfans.com
+DOMAIN-SUFFIX,cdn2.onlyfans.com
+DOMAIN,api.sublink.dev
+DOMAIN,api.dler.io
+DOMAIN-SUFFIX,nexitally.com
+DOMAIN,api.ytoo.xyz
+DOMAIN,api.tsutsu.one
+DOMAIN-SUFFIX,cnbeta.com
+DOMAIN-SUFFIX,sci-hub.se
+DOMAIN-SUFFIX,bsky.social
+DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN,bestpractice.bmj.com
+
+
