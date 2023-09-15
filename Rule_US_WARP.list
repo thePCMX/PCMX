@@ -1,5 +1,6 @@
 DOMAIN-SUFFIX,claude.ai
 DOMAIN,bard.google.com
 DOMAIN,smtp.gmail.com
-DOMAIN,cd.oio.wiki
+DOMAIN-SUFFIX,oio.wiki
+DOMAIN,octaweb.cloudflareaccess.com
 DOMAIN-SUFFIX,ntfy.sh
